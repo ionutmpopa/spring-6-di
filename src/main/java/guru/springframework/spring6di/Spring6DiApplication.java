@@ -13,9 +13,9 @@ public class Spring6DiApplication {
 
         MyController controller = ctx.getBean(MyController.class);
 
-        System.out.println("In Main Method");
+        //System.out.println("In Main Method");
 
-        System.out.println(controller.sayHello());
+        //System.out.println(controller.sayHello());
     }
 
 }
