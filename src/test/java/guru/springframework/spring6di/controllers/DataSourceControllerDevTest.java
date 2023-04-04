@@ -4,16 +4,17 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class MyControllerTest {
+class DataSourceControllerDevTest {
 
     @Autowired
-    private MyController myController;
+    private DataSourceController dataSourceController;
 
     @Test
-    void sayHello() {
-        System.out.println(myController.sayHello());
+    public void getDatasource() {
+
+        System.out.println(dataSourceController.getDatasource());
+
     }
 }
